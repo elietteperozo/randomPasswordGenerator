@@ -5,13 +5,13 @@
     box-sizing: border-box;
 }
 
-body{
+body {
     background-color: #002339;
-    color: white
+    color: white;
 }
 
 .container {
-    margin:  12%;
+    margin: 12%;
     width: 90%;
     max-width: 700px;
 }
@@ -20,7 +20,7 @@ body{
     width: 100%;
     margin-top: 50px;
     margin-bottom: 30px;
-    background-color:  #fff;
+    background-color: #fff;
     color: #333;
     display: flex;
     align-items: center;
@@ -36,7 +36,7 @@ body{
 
 .container h1 span {
     color: #019f55;
-    border-bottom:  4px solid #019f55;
+    border-bottom: 4px solid #019f55;
     padding-bottom: 7px;
 }
 
@@ -51,9 +51,9 @@ body{
     font-size: 24px;
 }
 
-.container button img{
- width: 28px;
- margin-right: 10px;
+.container button img {
+    width: 28px;
+    margin-right: 10px;
 }
 
 .container button {
@@ -69,4 +69,72 @@ body{
     padding: 16px 26px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    .container {
+        margin: 10%;
+        width: 90%;
+    }
+
+    .container h1 {
+        font-size: 35px;
+    }
+
+    .display {
+        margin-top: 30px;
+        margin-bottom: 20px;
+        padding: 20px;
+    }
+
+    .display img {
+        width: 25px;
+    }
+
+    .display input {
+        font-size: 20px;
+    }
+
+    .container button img {
+        width: 22px;
+    }
+
+    .container button {
+        font-size: 18px;
+        padding: 12px 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .container {
+        margin: 5%;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .display {
+        margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 16px;
+    }
+
+    .display img {
+        width: 20px;
+    }
+
+    .display input {
+        font-size: 16px;
+    }
+
+    .container button img {
+        width: 18px;
+    }
+
+    .container button {
+        font-size: 16px;
+        padding: 10px 16px;
+    }
 }
